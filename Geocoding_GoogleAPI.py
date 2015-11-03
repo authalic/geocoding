@@ -1,11 +1,16 @@
 #Geocode a list of addresses using Google Maps API v3
 #usage limit:  2500 addresses per day
 
-#Geocoding API Documentation -- https://developers.google.com/maps/documentation/geocoding
+#Geocoding API Documentation -- https://developers.google.com/maps/documentation/geocoding/intro
+#Client Lib -- https://github.com/googlemaps/google-maps-services-python/
+
 
 import urllib
 import xml.etree.ElementTree as xml
 
+
+APIkey = "AIzaSyAOfqcW5ASoU1RgbmfuuV_-NJVWuI_MlKU"
+# documentation 
 
 # Define the locations of the input and output text files
 
